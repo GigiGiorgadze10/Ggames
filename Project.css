@@ -1,0 +1,1211 @@
+.header{
+    background-color: #101010;;
+    width: 100%;
+    height: 72px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 48px;
+    height: 48px;
+    background-image: url(G.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15px;
+    left: 11%;
+    cursor: pointer;
+}
+#singin{
+    width: 40px;
+    height: 40px;
+    background-image: url(Group\ 34746.png);
+    background-repeat: no-repeat;
+    float: right;
+    right: 15%;
+    top: 17px;
+    position: absolute;
+    cursor: pointer;
+}
+.singin{
+    color: white;
+    float: right;
+    right: 12%;
+    top: 28px;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'inter';
+    font-size: 14px;
+}
+body{
+    background-color: #000;
+}
+.search-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+form {
+    display: inline-block;
+    position: absolute;
+    left: 16%;
+    top: 17px;
+}
+#search-input {
+    width: 100%;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #202020;
+    border-radius: 10px;
+    outline: none;
+    transition: width 0.4s;
+    background-color: #202020;
+    color: white;
+}
+#search-input:focus {
+    width: 100%;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 235px;
+    color: #888;
+    transition: color 0.3s;
+}
+button:hover {
+    color: #333;
+} 
+button svg {
+    width: 18px;
+    height: 18px;
+}
+.hello{
+    font-family: 'Poppins', sans-serif;
+    color: #FE1F27;
+    font-weight: 700;
+    font-size: 50px;
+    left: 11%;
+    top: 100px;
+    position: absolute;
+    cursor: default;
+}
+.game{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    left: 11%;
+    position: absolute;
+    top: 170px;
+    cursor: default;
+}
+.video{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: default;
+}
+.cyber{
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 600;  
+    line-height: 60px;     
+    cursor: default;
+}
+.punk{
+    color: #FE1F27;
+}
+.buy{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    background-color: #FE1F27;
+    border-radius: 14px;
+    height: 40px;
+    width: 130px;
+    top: 75%;
+    left: 6.5%;
+}
+.sliderFlex{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding-left: 90px;
+    padding-top: 50px;
+    flex-direction: column;
+}
+.sliderContainer{
+    top: 230px;
+    height: 360px;
+    width: 79%;
+    left: 11%;
+    position: absolute;
+    border-radius: 24px;
+    background: linear-gradient(90deg, #151515 -1.61%, rgba(21, 21, 21, 0.00) 100.63%);
+}
+.image{
+    background-image: url(biker_girl_by_eddie_mendoza_dckxzgn-pre\ 1.png);
+    background-repeat: no-repeat;
+    width: 830px;
+    height: 400px;
+    background-size: 100%;
+    left: 40%;
+    top: 0px;
+    position: absolute;
+    border: none;
+}
+.popularGames{
+    font-family: 'oswald', sans-serif;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: default;
+}
+.see{
+    font-family: 'oswald', sans-serif;
+    color: #FE1F27;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.popular{
+    display: flex;
+    flex-direction: row;
+    gap: 64.7vw;
+    top: 650px;
+    text-align: center;
+    align-items: baseline;
+    position: absolute;
+    left: 11%;
+}
+.GameContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5%;
+    left: 11%;
+    position: absolute;
+    top: 720px;
+}
+.image1{
+    background-image: url(sg-ff7-remake-walkthrough-and-guide.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 439px;
+    height: 250px;
+}
+.title{
+    font-family: 'oswald', sans-serif;
+    color: #FFF;
+    left: 10px;
+    position: relative;
+    top: -15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.stars{
+    background-image: url(Group\ 34709.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90px;
+    height: 20px;
+    position: relative;
+    float: right;
+    top: -68px;
+    right: 10px;
+}
+.price{
+    color: #FFF;
+    font-family: 'oswald',sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    float: right;
+    position: relative;
+    left: 78px;
+    top: -40px;
+    cursor: default;
+}
+.redP{
+    color: #FE1F27;
+    font-family: 'oswald', sans-serif;
+    font-size: 15px;
+}
+.image2{
+    background-image: url(Dead-Island-2-Header-R.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 439px;
+    height: 250px;
+}
+.title1{
+    font-family: 'oswald', sans-serif;
+    color: #FFF;
+    left: 10px;
+    position: relative;
+    top: -15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.stars1{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90px;
+    height: 20px;
+    position: relative;
+    float: right;
+    top: -40px;
+    right: 10px;
+}
+.price1{
+    color: #FFF;
+    font-family: 'oswald',sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    float: right;
+    position: relative;
+    left: 78px;
+    top: -10px;
+    cursor: default;
+}
+.image3{
+    background-image: url(TvcIHkYqqln1RGbaFqBeuFp6\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 439px;
+    height: 250px;
+}
+.title2{
+    font-family: 'oswald', sans-serif;
+    color: #FFF;
+    left: 10px;
+    position: relative;
+    top: -15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.stars2{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90px;
+    height: 20px;
+    position: relative;
+    float: right;
+    top: -40px;
+    right: 10px;
+}
+.price2{
+    color: #FFF;
+    font-family: 'oswald',sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    float: right;
+    position: relative;
+    left: 78px;
+    top: -10px;
+    cursor: default;
+}
+.gamesOnSale{
+    font-family: 'oswald', sans-serif;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: default;
+}
+.sale{
+    display: flex;
+    flex-direction: row;
+    gap: 38vw;
+    top: 1100px;
+    text-align: center;
+    align-items: baseline;
+    position: absolute;
+    left: 11%;
+}
+.firstSale{
+    height: 280px;
+    width: 297px;
+    border-radius: 20px;
+    background: #1B1B1B;
+}
+.secondSale{
+    height: 280px;
+    width: 297px;
+    border-radius: 20px;
+    background: #1B1B1B;
+}
+.thirdSale{
+    height: 280px;
+    width: 297px;
+    border-radius: 20px;
+    background: #1B1B1B;
+}
+.saleContainer{
+    display: flex;
+    top: 1170px;
+    left: 11%;
+    position: absolute;
+    gap: 2%;
+}
+.photo{
+    background-image: url(Share_Image_1920x1080_1920x1080-3ec6b92b109d6ebe190c7fd8da23b989.png);
+    width: 255px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo{
+    background-image: url(Group\ 34711.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: -43px;
+    float: right;
+    right: 15px;
+}
+.axali{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    border: 1px solid #FE1F27;
+    width: 25px;
+    text-align: center;
+    background-color: #FE1F27;
+    border-radius: 2px;
+    height: 20px;
+    float: right;
+    top: -20px;
+    position: relative;
+    cursor: default;
+}
+.fasi{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 90px;
+    position: relative;
+    top: -20px;
+    cursor: default;
+}
+.redf{
+    color: #FE1F27;
+    text-decoration: line-through;
+    text-decoration-color: #FFF;
+}
+.photo1{
+    background-image: url(8aaf9d51-892f-499f-92d9-a5db7aa18032.png);
+    width: 255px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli1{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo1{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: -20px;
+    float: right;
+    right: 15px;
+}
+.axali1{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    border: 1px solid #FE1F27;
+    width: 25px;
+    text-align: center;
+    background-color: #FE1F27;
+    border-radius: 2px;
+    height: 20px;
+    float: right;
+    top: 3px;
+    position: relative;
+    cursor: default;
+}
+.fasi1{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 90px;
+    position: relative;
+    top: 3px;
+    cursor: default;
+}
+.photo2{
+    background-image: url(the-front-1cfw8.png);
+    width: 255px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli2{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo2{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: -20px;
+    float: right;
+    right: 15px;
+}
+.axali2{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    border: 1px solid #FE1F27;
+    width: 25px;
+    text-align: center;
+    background-color: #FE1F27;
+    border-radius: 2px;
+    height: 20px;
+    float: right;
+    top: 3px;
+    position: relative;
+    cursor: default;
+}
+.fasi2{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 90px;
+    position: relative;
+    top: 3px;
+    cursor: default;
+}
+.video-container {
+    position: relative;
+    width: 440px;
+    height: 300px;
+    max-width: 600px; 
+    margin: auto;
+    top: 1090px;
+    float: right;
+    right: 10%;
+}
+.thumbnail {
+    width: 440px;
+    height: 300px;
+    cursor: pointer;
+}
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.backline{
+    width: 79%;
+    background-color: #101010;
+    height: 250px;
+    left: 11%;
+    position: relative;
+    border-radius: 24px;
+    top: 1550px;
+}
+.top{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 50px;
+    top: 1680px;
+    left: 15%;
+    position: absolute;
+    cursor: default;
+}
+.seeMore{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    background-color: #E00109;
+    border-radius: 14px;
+    height: 45px;
+    width: 115px;
+    top: 1770px;
+    left: 14.9%;
+}
+.firstTop{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    text-align: center;
+}
+.secondTop{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    text-align: center;
+}
+.thirdTop{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    text-align: center;
+}
+.topContainer{
+    display: flex;
+    top: 1595px;
+    right: 15%;
+    gap: 2%;
+    float: right;
+    position: absolute;
+}
+.surati{
+    background-image: url(EGS_TheLastofUsPartI_NaughtyDogLLC_S1_2560x1440-3659b5fe340f8fc073257975b20b7f84.png);
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.surati1{
+    background-image: url(EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-2baf3188eb3c1aa248bcc1af6a927b7e.png);
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.surati2{
+    background-image: url(RDR2PC1227_Epic\ Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c\ 1.png);
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.satauri{
+    color: #FFF;
+    font-family: 'oswald';
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 19px;
+    top: 10px;
+    position: relative;
+}
+.backC{
+    width: 250px;
+    height: 75px;
+    background-color: #000;
+    border-radius: 15px;
+    position: relative;
+    bottom: 90px;
+    left: 25px;
+}
+.varskvlavi{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 75px;
+    top: 15px;
+}
+.satauri1{
+    color: #FFF;
+    font-family: 'oswald';
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 19px;
+    top: 10px;
+    position: relative;
+}
+.backC1{
+    width: 250px;
+    height: 75px;
+    background-color: #000;
+    border-radius: 15px;
+    position: relative;
+    bottom: 90px;
+    left: 25px;
+}
+.varskvlavi1{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 75px;
+    top: 15px;
+}
+.satauri2{
+    color: #FFF;
+    font-family: 'oswald';
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 19px;
+    top: 10px;
+    position: relative;
+}
+.backC2{
+    width: 250px;
+    height: 75px;
+    background-color: #000;
+    border-radius: 15px;
+    position: relative;
+    bottom: 90px;
+    left: 25px;
+}
+.varskvlavi2{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 75px;
+    top: 15px;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    top: 2030px;
+    position: absolute;
+    background-color: #101010;
+}
+.logo1{
+    width: 48px;
+    height: 48px;
+    background-image: url(G.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2085px;
+    left: 12%;
+    cursor: pointer;
+}
+.na{
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 200;
+}
+.footerNav{
+    display: flex;
+    gap: 5%;
+    top: 70px;
+    justify-content: center;
+    position: relative;
+}
+.fb{
+    background-image: url(facebook\ 1.png);
+    width: 47px;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.x{
+    background-image: url(twitter\ 1.png);
+    width: 47px;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.yt{
+    background-image: url(youtube\ 1.png);
+    width: 47px;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+    top: 37px;
+    float: right;
+    right: 10%;
+    position: relative;
+}
+#signin-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+.signinsatauri{
+    color: #FFF;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 30px;
+}
+.stay{
+    color: #DDD;
+    font-family: 'poppins';
+    font-size: 14px;
+}
+.signin-content {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFF;
+}
+#signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 120px;
+}
+.passwordla {
+    margin-top: 10px;
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 12px;
+    position: relative;
+    right: 33px;
+    
+}
+.emailla {
+    margin-top: 10px;
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 12px;
+    position: relative;
+    right: 33px;
+}
+.email {
+    padding: 8px;
+    margin: 5px 0;
+    width: 350px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0px;
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+    right: 33px;
+    color: #FFF;
+}
+.password {
+    padding: 8px;
+    margin: 5px 0;
+    width: 350px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0px;
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+    right: 33px;
+    color: #FFF;
+}
+.signinbtn {
+    background-color: #FE1F27;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 360px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 10px;
+    position: absolute;
+    top: 145%; 
+    left: 41%;
+    transform: translate(-50%, -50%); 
+}
+.forgotpa{
+    color: #E00109;
+    text-decoration: none;
+    font-family: 'inter';
+    font-size: 12px;
+    position: relative;
+    top: 210px;
+    float: right;
+    right: 20px;
+}
+.donthave{
+    position: relative;
+    top: 315px;
+    left: 45px;
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 12px;
+    
+}
+.signupd{
+    color: #E00109;
+    text-decoration: none;
+}
+#signup-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+.stay {
+    color: #DDD;
+    font-family: 'poppins';
+    font-size: 14px;
+}
+.signin-content {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 460px; 
+    text-align: center;
+    position: relative;
+}
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFF;
+}
+.signup-content {
+    background-color: #1a1a1a;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+.phonela,
+.fullnamela,
+.emailla1,
+.passwordla1 {
+    margin-top: 10px;
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 12px;
+    position: relative;
+    top: 90px;
+    right: 10px;
+}
+.email1,
+.password1,
+.fullname,
+.phonenumber {
+    padding: 8px;
+    width: 350px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0px;
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+    color: #FFF;
+    top: 90px;
+    right: 10px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#agreeTerms {
+    margin-right: 5px;
+    color: #FFF;
+}
+.agreeTerms{
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 12px;
+
+}
+.agree{
+    top: 115px;
+    position: relative;
+    right: 10px;
+
+}
+.signupbtn {
+    background-color: #FE1F27;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 360px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 10px;
+    position: absolute;
+    top: 150%; 
+    left: 173px;
+    transform: translate(-50%, -50%); 
+}
+.donthave {
+    position: relative;
+    top: 315px;
+    left: 45px;
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 12px;
+}
+.signin-link {
+    color: #E00109;
+    text-decoration: none;
+}
+.already {
+    margin-top: 20px;
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 13px;
+    top: 72%;
+    
+    position: relative;
+}
+.signupsatauri{
+    color: #FFF;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 30px;
+    top: 20px;
+    position: relative;
+}
+.create{
+    color: #FFF;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+}
+#forgot-password-popup {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+.password-popup-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.password-content {
+    background: #1a1a1a; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    max-width: 90%; 
+    text-align: center;
+    position: relative;
+}
+.close-btnpa {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFF;
+}
+.emailpala, .emailpa {
+    right: 0; 
+}
+.password-title {
+    color: #FFF;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 30px;
+}
+.password-instructions {
+    color: #DDD;
+    font-family: 'poppins';
+    font-size: 14px;
+}
+#forgot-password-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.emailpala{
+    margin-top: 10px;
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 12px;
+    position: relative;
+    right: 33px;
+    top: 70px;
+}
+.emailpa {
+    padding: 8px;
+    margin: 5px 0;
+    width: 350px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0px;
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+    right: 33px;
+    top: 70px;
+    color: #FFF;
+}
+.reset-btn {
+    background-color: #FE1F27;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 360px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 10px;
+    position: relative;
+    top: 85px;
+    left: -33px;
+}
+#success-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+.success-content {
+    background: #1a1a1a; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+}
+.success-title {
+    color: #FFF;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 30px;
+}
+.success-message {
+    color: #DDD;
+    font-family: 'poppins';
+    font-size: 14px;
+}
+.back-to-home-btn {
+    background-color: #FE1F27;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 380px;
+    font-size: 16px;
+    margin-top: 10px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+}
+.suc-img{
+    background-image: url(Group\ 33604.png);
+    width: 100px;
+    height: 110px;
+    left: 150px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
