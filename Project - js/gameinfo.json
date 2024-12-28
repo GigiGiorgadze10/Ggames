@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "title": "The Last of Us",
+      "title1": "The Last of Us",
+      "image": "images/lastodus.png",
+      "price": 49.99,
+      "developer": "Naughty Dog LLC",
+      "releaseDate": "28/03/2023",
+      "publisher": "PlayStation PC LLC",
+      "genres": ["Action", "Adventure"],
+      "rating":"Group 34710.png"
+    },
+    {
+      "id": 2,
+      "title": "Hogwarts Legacy",
+      "title1": "Hogwarts Legacy",
+      "price": 29.99,
+      "developer": "Avalanche Soft...",
+      "releaseDate": "10/02/2023",
+      "publisher": "Warner Bros Ga...",
+      "genres": ["open-world,", "action"],
+      "image": "images/hogwarts-legacy-uhdpaper.com-hd-3.2837.jpg",
+      "rating":"Group 34710.png"
+    },
+    {
+      "id": 3,
+      "title": "RDR II",
+      "title1": "RDR II",
+      "price": 79,
+      "developer": "Rockstar Games",
+      "releaseDate": "26/10/2018",
+      "publisher": "Rockstar Games",
+      "genres": ["action-adventure,", "Open world"],
+      "image": "images/RDR2.jpg",
+      "rating":"Group 34710.png"
+    },
+    {
+      "id": 6,
+      "title": "Assassins Creed Mirage",
+      "title1": "Assassins Creed...",
+      "price": 29,
+      "developer": "Ubisoft",
+      "publisher": "Ubisoft",
+      "releaseDate":"5/10/2023",
+      "genres":["Action-adventure"],
+      "image":"images/mirage.jpg",
+      "rating":"Group 34711.png"
+    },
+    {
+      "id": 5,
+      "title": "Alan Wake II",
+      "title1": "Alan Wake II",
+      "price": 9,
+      "developer": "Remedy Entertai...",
+      "publisher": "Epic Games Publ...",
+      "releaseDate":"27/10/2023",
+      "genres":["Survival horror,", "Adventure"],
+      "image":"images/alan.jpg",
+      "rating":"Group 34710.png"
+    },
+    {
+      "id": 4,
+      "title": "The Front",
+      "title1": "The Front",
+      "price": 7,
+      "developer": "Samar Studio",
+      "publisher": "Samar Studio",
+      "releaseDate":"11/10/2023",
+      "genres":["Action,", "Indie"],
+      "image":"images/front.jpg",
+      "rating":"Group 34710.png"
+    },
+    {
+      "id": 7,
+      "title": "Final Fantasy VII Remake intergrade",
+      "title1": "Final Fantasy VII...",
+      "price": 29,
+      "rating":"Group 34709.png",
+      "developer": "Square Enix",
+      "publisher": "Square Enix",
+      "releaseDate":"10/06/2021",
+      "genres":["Fighting,", "Action role-playing"],
+      "image":"images/final.jpeg"
+    },
+    {
+      "id": 8,
+      "title": "Dead Island II",
+      "title1": "Dead Island II",
+      "price": 49,
+      "rating":"Group 34710.png",
+      "developer": "Dambuster Studios",
+      "publisher": "Deep Silver",
+      "releaseDate":"21/04/2023",
+      "genres":["Action role-playing"],
+      "image":"images/dead.jpeg"
+    },
+    {
+      "id": 9,
+      "title": "The Witcher Wild Hunt",
+      "title1": "The Witcher Wild...",
+      "price": 69,
+      "rating":"Group 34710.png",
+      "developer": "CD Projekt",
+      "publisher": "CD Projekt",
+      "releaseDate":"18/05/2015",
+      "genres":["Action role-playing"],
+      "image":"images/witcher.jpg"
+    },
+    {
+      "id": 10,
+      "title": "CyberPunk 2077",
+      "title1": "CyberPunk 2077",
+      "price": 70,
+      "rating":"Group 34710.png",
+      "developer": "CD Projekt Red",
+      "publisher": "CD Projekt Red",
+      "releaseDate":"10/12/2020",
+      "genres":["Action role-playing"],
+      "image":"images/cyberpunk.jpg"
+    }
+  ]
+  
+  
