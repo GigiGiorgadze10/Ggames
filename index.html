@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/G.png" type="image/png">
+    <title>G games</title>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="logo"></div>
+    <div class="search-container">
+        <form action="/search">
+            <input type="text" id="search-input" name="query" placeholder="Type here for search...">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><style>svg{fill:#919191}</style><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+            </button>
+        </form>
+    </div>
+    <div id="singin"></div>
+    <a href="#" class="singin" onclick="openSignInPopup()">Sign In</a>
+    <h1 class="hello">Hello Gamer..!</h1>
+    <p class="game">Welcome to game zone</p>
+    <div class="sliderContainer">
+        <div class="sliderFlex">
+            <p class="video">Video Game</p>
+            <h1 class="cyber">Lets's Play <br> <span class="punk">CYBERPUNK</span></h1>
+            <button type="button" class="buy" onclick="showGameInfo(10)">BUY NOW $70</button>
+        </div>
+        <div class="image"></div>
+    </div>
+    <div class="popular">
+        <h2 class="popularGames">Popular Games</h2>
+        <a class="see" href="games.html">See More</a>
+    </div>
+    <div class="GameContainer">
+        <div class="firstGame">
+            <a href="#" onclick="showGameInfo(7)">
+                <div class="image1"></div>
+            </a>
+            <h2 class="title" onclick="showGameInfo(7)">Final Fantasy. VII <br>Remake intergrade</h2>
+            <div class="stars"></div>
+            <p class="price">Price: <span class="redP">$29</span></p>
+        </div>
+        <div class="secondGame">
+            <a href="#" onclick="showGameInfo(8)">
+                <div class="image2"></div>
+            </a>
+            <h2 class="title1" onclick="showGameInfo(8)">Dead Island II</h2>
+            <div class="stars1"></div>
+            <p class="price1">Price: <span class="redP">$49</span></p>
+        </div>
+        <div class="thirdGame">
+            <a href="#" onclick="showGameInfo(9)">
+                <div class="image3"></div>
+            </a>
+            <h2 class="title2" onclick="showGameInfo(9)">The Witcher Wild Hunt</h2>
+            <div class="stars2"></div>
+            <p class="price2">Price: <span class="redP">$69</span></p>
+        </div>
+    </div>
+    <div class="sale">
+        <h2 class="gamesOnSale">Games on Sale</h2>
+        <a class="see" href="games.html">See More</a>
+    </div>
+    <div class="saleContainer">
+        <div class="firstSale">
+            <a href="#" onclick="showGameInfo(6)" class="photoa">
+                <div class="photo"></div>
+            </a>
+            <h2 class="saxeli" onclick="showGameInfo(6)">Assassin's Creed <br>Mirage</h2>
+            <div class="zvezdo"></div>
+            <p class="axali">$29</p>
+            <p class="fasi">Price: <span class="redf">$90</span></p>
+        </div>
+        <div class="secondSale">
+            <a href="#" onclick="showGameInfo(5)">
+                <div class="photo1"></div>
+            </a>
+            <h2 class="saxeli1" onclick="showGameInfo(5)">Alan Wake II</h2>
+            <div class="zvezdo1"></div>
+            <p class="axali1">$9</p>
+            <p class="fasi1">Price: <span class="redf">$37</span></p>
+        </div>
+        <div class="thirdSale">
+            <a href="#" onclick="showGameInfo(4)">
+                <div class="photo2"></div>
+            </a>
+            <h2 class="saxeli2" onclick="showGameInfo(4)">The Front</h2>
+            <div class="zvezdo2"></div>
+            <p class="axali2">$7</p>
+            <p class="fasi2">Price: <span class="redf">$9</span></p>
+        </div>
+    </div>
+    <div class="video-container">
+        <img class="thumbnail" src="images/H2x1_NSwitch_Snowrunner_image1600w 1.png" alt="Thumbnail">
+        <button class="play-button" onclick="playVideo()">▶</button>
+        <div id="player" style="display: none;"></div>
+    </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <div class="backline"></div>
+    <div>
+        <h1 class="top">Top Sellers</h1>
+        <button type="button" class="seeMore" onclick="redirectToGamesPage()">See More</button>
+    </div>
+    <div class="topContainer">
+        <div class="firstTop">
+            <div class="surati"></div>
+            <div class="backC">
+                <a class="satauri" href="#" onclick="showGameInfo(1)">The Last Of Us</a>
+                <div class="varskvlavi"></div>
+            </div>
+        </div>
+        <div class="secondTop">
+            <div class="surati1"></div>
+            <div class="backC1">
+                <a class="satauri1" href="#" onclick="showGameInfo(2)">Hogwarts Legacy</a>
+                <div class="varskvlavi1"></div>
+            </div>
+        </div>
+        <div class="thirdTop">
+            <div class="surati2"></div>
+            <div class="backC2">
+                <a class="satauri2" href="#" onclick="showGameInfo(3)">Red Dead Redamption II</a>
+                <div class="varskvlavi2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerNav">
+            <a class="na" href="">Support-A-Creator</a>
+            <a class="na" href="">Careers</a>
+            <a class="na" href="">Company</a>
+            <a class="na" href="">Online Services</a>
+            <a class="na" href="">Community Rules</a>
+        </div>
+        <div class="socials">
+            <a class="fb" href=""></a>
+            <a class="x" href=""></a>
+            <a class="yt" href=""></a>
+        </div>
+    </div>
+    <div class="logo1"></div>
+    <div id="signin-popup">
+        <div class="signin-content">
+            <span class="close-btn" onclick="closeSignInPopup()">&times;</span>
+            <h2 class="signinsatauri">Sign In</h2>
+            <p class="stay">Sign in to stay connected.</p>
+            <form action="#" method="post" id="signin-form" onsubmit="return validateSignInForm(event)">
+                <label class="emailla" for="Email">Email:</label>
+                <input type="email" id="email" name="Email" class="email" required>
+    
+                <label class="passwordla" for="password">Password:</label>
+                <input type="password" id="password" name="password" class="password" required>
+    
+                <button class="signinbtn" type="submit" onclick="validateSignInForm(event)">Sign In</button>
+            </form>
+            <a href="#" class="forgotpa" onclick="openForgotPasswordPopup()">Forgot Password?</a>
+    
+            <p class="donthave">Don't have an account? Click here to <a class="signupd" href="#">sign up</a></p>
+        </div>
+    </div>
+    <div id="signup-popup">
+        <div class="signup-content">
+            <span class="closebtn" onclick="closeSignUpPopup()">&times;</span>
+            <h2 class="signupsatauri">Sign Up</h2>
+            <p class="create">Create your account</p>
+            <form action="#" method="post" id="signup-form" onsubmit="return validateSignUpForm(event)">
+                <label class="fullnamela" for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="FullName" class="fullname" required>
+    
+                <label class="emailla1" for="signup-email">Email:</label>
+                <input type="email" id="signup-email" name="Email" class="email1" required>
+    
+                <label class="phonela" for="phoneNumber">Phone Number:</label>
+                <input type="text" id="phoneNumber" name="PhoneNumber" class="phonenumber" required>
+    
+                <label class="passwordla1" for="signup-password">Password:</label>
+                <input type="password" id="signup-password" name="password" class="password1" required>
+                <div class="agree">
+                    <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                    <label class="agreeTerms" for="agreeTerms">I agree with the terms of use</label>
+                </div>
+                <button class="signupbtn" type="submit" onclick="return validateSignUpForm()">Sign Up</button>
+
+            </form>
+    
+            <p class="already">Already have an account? <a class="signin-link" href="#" onclick="openSignInPopup()">Sign in here</a></p>
+        </div>
+    </div>
+    <div id="forgot-password-popup" class="password-popup">
+        <div class="password-popup-container"> 
+            <div class="password-content">
+                <span class="close-btnpa" onclick="closeForgotPasswordPopup()">&times;</span>
+                <h2 class="password-title">Forgot Password</h2>
+                <p class="password-instructions">Enter your email address to reset your password.</p>
+                <form action="#" method="post" id="forgot-password-form" onsubmit="return sendResetLink()">
+                    <label class="emailpala" for="reset-email">Email:</label>
+                    <input class="emailpa" type="email" id="reset-email" name="resetEmail" required>
+                <button class="reset-btn" type="submit">Reset Password</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div id="success-popup" class="success-popup">
+        <div class="success-content">
+            <div class="suc-img"></div>
+            <h2 class="success-title">Success!</h2>
+            <p class="success-message">The link has been sent to your email, <br>please check the email and follow the further instructions.</p>
+            <button class="back-to-home-btn" onclick="backToHome()">Back to Home</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script>
+        function showGameInfo(gameId) {
+            window.location.href = "gamepage.html?id=" + gameId;
+        }
+    </script>
+</body>
+</html>
